@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Class Project | Diego Hernandez Romero</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #1a1a1a;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .top-bar {
+            max-width: 1000px;
+            margin: 20px auto 0;
+            padding: 0 20px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.95rem;
+            color: #1a3d7c;
+        }
+
+        .back-link span {
+            font-size: 1.1rem;
+        }
+
+        header {
+            max-width: 1000px;
+            margin: 10px auto 0;
+            padding: 10px 20px 20px;
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            margin: 5px 0;
+            color: #1a3d7c;
+        }
+
+        header p {
+            font-size: 1.05rem;
+            color: #555;
+            margin: 0;
+        }
+
+        .card {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #1a3d7c;
+        }
+
+        .section-title {
+            max-width: 1000px;
+            margin: 30px auto 10px;
+            padding: 0 20px;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .materials-grid {
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            padding: 0 20px 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .material-card {
+            flex: 1 1 280px;
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 25px 25px 30px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .icon-circle {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: #e4ebf7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .material-card h3 {
+            margin: 0 0 8px;
+            color: #1a3d7c;
+        }
+
+        .material-card p {
+            margin: 0 0 18px;
+            color: #555;
+            font-size: 0.98rem;
+        }
+
+        .btn-primary {
+            padding: 10px 22px;
+            border-radius: 8px;
+            background-color: #1a3d7c;
+            color: #ffffff;
+            font-size: 0.98rem;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.25s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #274c9b;
+        }
+
+        .note {
+            margin-top: 6px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Back to Home -->
+    <div class="top-bar">
+        <a href="index.html" class="back-link">
+            <span>&larr;</span>
+            <span>Back to Home</span>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>AI Class Project</h1>
+        <p>RESECON 490AI · Artificial Intelligence in Economics</p>
+    </header>
+
+    <!-- Project Overview Card -->
+    <section class="card">
+        <h2>Project Overview</h2>
+        <p>
+            This project analyzes how artificial intelligence is reshaping the U.S. sports analytics industry, 
+            a fast-growing sector at the intersection of data science, entertainment, and human performance. 
+            Using labor statistics, industry reports, and technology adoption data, the project examines how AI tools 
+            such as machine learning, tracking systems, and predictive models are transforming team decision-making, 
+            competitive dynamics, and fan engagement. It also explores how these trends create new analytics-focused 
+            career paths in professional sports and how students like me can position themselves within this evolving field.
+        </p>
+    </section>
+
+    <!-- Project Materials -->
+    <h2 class="section-title">Project Materials</h2>
+
+    <section class="materials-grid">
+
+        <!-- Presentation Slides Card -->
+        <div class="material-card">
+            <div class="icon-circle">📺</div>
+            <h3>Presentation Slides</h3>
+            <p>View the slide deck summarizing the key findings and visualizations from the project.</p>
+            <!-- Placeholder link: replace "#" with your actual slides URL when ready -->
+            <a href="#" class="btn-primary">View Presentation</a>
+            <div class="note">(Placeholder – link slides when available)</div>
+        </div>
+
+        <!-- Project Report Card -->
+        <div class="material-card">
+            <div class="icon-circle">📄</div>
+            <h3>Project Report</h3>
+            <p>Read the full written report on AI, growth, and data in the U.S. sports analytics industry.</p>
+            <!-- Replace the filename below with your actual PDF name if different -->
+            <a href="US_Sports_Analytics_AI_Project_Report.pdf" class="btn-primary" target="_blank">
+                View Report
+            </a>
+            <div class="note">(Make sure this PDF is in the same folder as this page.)</div>
+        </div>
+
+    </section>
+
+</body>
+</html>
 
