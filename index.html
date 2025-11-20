@@ -1,10 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My AI490 Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Hernandez Romero | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #1a1a1a;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px 10px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 5px;
+            color: #1a3d7c;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .profile-placeholder {
+            width: 200px;
+            height: 200px;
+            background-color: #d9d9d9;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text h2 {
+            margin-bottom: 10px;
+            color: #1a3d7c;
+        }
+
+        .button-area {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 30px;
+        }
+
+        .btn {
+            padding: 15px 35px;
+            font-size: 1rem;
+            background-color: #1a3d7c;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #274c9b;
+        }
+
+    </style>
 </head>
+
 <body>
-<h1>Hello from my first webpage!</h1>
-<p>This page will later host my coursework.</p>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Diego Hernandez Romero</h1>
+        <p>Undergraduate Student, Managerial Economics | University of Massachusetts Amherst</p>
+    </header>
+
+    <!-- About Section -->
+    <div class="container">
+        <div class="profile-placeholder">
+            Profile Photo<br>(Coming Soon)
+        </div>
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I'm an undergraduate Managerial Economics major at UMass Amherst with a strong interest in 
+                business analytics, artificial intelligence, and their applications in modern economic decision-making. 
+                I enjoy working with data, building quantitative models, and applying analytical frameworks 
+                to solve complex business and economic problems.
+            </p>
+
+            <p>
+                My academic background includes economics, analytics, finance, and AI in economics, and I am 
+                currently preparing to enter the Isenberg School of Management’s 4+1 Business Analytics program. 
+                This portfolio highlights my coursework, projects, and professional development.
+            </p>
+        </div>
+    </div>
+
+    <!-- Buttons Section -->
+    <div class="button-area">
+        <a class="btn" href="Diego_Hernandez Resume 2024-09s.pdf" target="_blank">View Resume</a>
+        <a class="btn" href="project.html">View Projects</a>
+    </div>
+
 </body>
 </html>
